@@ -2,7 +2,7 @@
 
 Este repositorio contiene un prototipo de modelo no relacional documental desarrollado en MongoDB Shell sobre datos de prueba generados para el dominio. El objetivo es construir y validar una base de datos documental funcional que sirva como base de práctica para talleres de modelado no relacional.
 
----
+
 
 ## Contexto del proyecto
 
@@ -10,7 +10,6 @@ El proceso de negocio modelado es una plataforma de recomendación local tipo Ye
 
 El diseño sigue un enfoque no relacional documental basado en dos decisiones principales: embebido para información que se consulta de manera conjunta y tiene cardinalidad 1:1, y referencia para entidades de alta cardinalidad como reseñas y relaciones entre usuarios. El grano de la colección de reseñas es una opinión individual emitida por un usuario sobre un negocio en una fecha determinada.
 
----
 
 ## Modelo documental
 
@@ -36,7 +35,6 @@ Descarga MongoDB Community Server desde https://www.mongodb.com/try/download/com
 mongosh --version
 ```
 
----
 
 ## Cómo ejecutar
 
